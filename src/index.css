@@ -9,9 +9,16 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background: #fff;
-  color: #222;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #09090b;
+  color: white;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 a {
@@ -19,12 +26,6 @@ a {
   color: inherit;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 button {
   font: inherit;
-  cursor: pointer;
 }
