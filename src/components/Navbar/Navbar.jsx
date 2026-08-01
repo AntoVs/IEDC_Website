@@ -42,7 +42,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <div
               key={item}
-              className="nav-item"
+              className={`nav-item ${active === item ? "active" : ""}`}
               onClick={() => {
                 setActive(item);
                 setMenuOpen(false);
