@@ -9,7 +9,6 @@ import logo from "../../assets/logos/iic-logo.jpg";
 const navItems = [
   "Home",
   "About",
-  "Domains",
   "Events",
   "Team",
   "Gallery",
