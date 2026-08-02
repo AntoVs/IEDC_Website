@@ -23,7 +23,6 @@ export default function Hero() {
       >
         <div className="hero-section">
           <div className="hero-top">
-            <img src={logo} alt="IEDC Logo" className="hero-logo" />
 
             <span className="hero-tag">
               Innovation • Entrepreneurship • Technology
