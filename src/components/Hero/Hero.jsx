@@ -8,13 +8,7 @@ import logo from "../../assets/logos/rset_innovation.png";
 export default function Hero() {
   return (
     <section className="hero" id="home">
-      <video
-        className="hero-video"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
+      <video className="hero-video" autoPlay muted loop playsInline>
         <source src={heroVideo} type="video/mp4" />
       </video>
 
@@ -26,32 +20,26 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-      <div className='hero-top'>
-        <img src={logo} alt="IEDC Logo" className="hero-logo" />
+        <div className="hero-section">
+          <div className="hero-top">
+            <img src={logo} alt="IEDC Logo" className="hero-logo" />
 
-        <span className="hero-tag">
-          Innovation • Entrepreneurship • Technology
-        </span>
-      </div>
-        <h1>
-          Think.
-          Innovate.
-          Inspire.
-        </h1>
+            <span className="hero-tag">
+              Innovation • Entrepreneurship • Technology
+            </span>
+          </div>
+          <h1>Think | Innovate | Inspire</h1>
 
-        <p>
-          We are RSET IEDC and IIC RSET,
-          Rajagiri School of Engineering & Technology.
-        </p>
+          <p>
+            We are RSET IEDC and IIC RSET, Rajagiri School of Engineering &
+            Technology.
+          </p>
 
-        <div className="hero-buttons">
-          <button className="primary-btn">
-            Explore
-          </button>
+          <div className="hero-buttons">
+            <button className="primary-btn">Explore</button>
 
-          <button className="secondary-btn">
-            Join Us
-          </button>
+            <button className="secondary-btn">Join Us</button>
+          </div>
         </div>
       </motion.div>
 
