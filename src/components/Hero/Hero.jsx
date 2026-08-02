@@ -31,8 +31,7 @@ export default function Hero() {
           <h1>Think | Innovate | Inspire</h1>
 
           <p>
-            We are RSET IEDC and IIC RSET, Rajagiri School of Engineering &
-            Technology.
+            We are RSET IEDC and IIC RSET
           </p>
 
           <div className="hero-buttons">

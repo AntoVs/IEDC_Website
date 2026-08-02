@@ -94,7 +94,7 @@
 .hero p {
   max-width: 650px;
   margin: 0 auto;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   line-height: 1.8;
   opacity: 0.9;
 }
@@ -172,5 +172,15 @@
   .secondary-btn {
     width: 100%;
     max-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-video {
+    display: none;
+  }
+
+  .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
   }
 }
